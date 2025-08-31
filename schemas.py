@@ -14,7 +14,7 @@ class SignUpModel(BaseModel):
         schema_extra={
             "example": {
                 "username": "Farangiz",
-                "email": "badbadluck914@gmail.com",
+                "email": str,
                 "password": "password",
                 "is_staff": False,
                 "is_active": True
